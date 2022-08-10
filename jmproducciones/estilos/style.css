@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Hind+Madurai:wght@300&family=Inconsolata&display=swap");
+body {
+  background-color: rgb(17, 14, 13);
+}
+
+h1 {
+  color: rgb(236, 230, 228);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  justify-items: flex-start;
+}
+header nav img {
+  border-radius: 250px;
+  height: 80px;
+  width: 80px;
+  justify-content: right;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(236, 230, 228);
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 20px;
+  margin: 10px 5px 10px 5px;
+}
+header nav ul li .logo {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(236, 230, 228);
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 5px 10px 5px;
+}/*# sourceMappingURL=style.css.map */
